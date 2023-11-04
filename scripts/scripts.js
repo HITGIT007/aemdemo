@@ -14,6 +14,9 @@ import {
 } from './aem.js';
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
+// This array is used to specify which blocks are considered 
+// Largest Contentful Paint (LCP) blocks.
+//  LCP blocks are critical for web performance optimization.
 
 /**
  * Builds hero block and prepends to main in a new section.
